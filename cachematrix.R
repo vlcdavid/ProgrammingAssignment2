@@ -11,7 +11,7 @@ makeCacheMatraix<-function(x=matrix()){
         get<-function()x
         setmatrix<-function(solve)m<<-solve
         #method to get the inverse of the matrix
-        getmatrix<-funciton()m
+        getmatrix<-function()m
         #return a list of the methods
         list(set=set,get=get,
              setmatrix=setmatrix,
